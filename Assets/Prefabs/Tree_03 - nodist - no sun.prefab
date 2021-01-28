@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7429547539770130306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5247664924786032292}
+  - component: {fileID: -1446781957038519177}
+  m_Layer: 0
+  m_Name: Tree_03 - nodist 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5247664924786032292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7429547539770130306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1446781957038519177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7429547539770130306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f4b5e50d8c84476adc1852a39f834c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minWaterTableDepth: 5
+  maxWaterTableDepth: 15
+  minSunAngle: 0
+  maxSunAngle: 180
+  plantTag: highTree
+  minDistanceToTrees: 3
+  activeVariation: 1
+  bigVariationPrefab: {fileID: 5964264575456465638, guid: 0173f74499a264c17bfb968f546bce69,
+    type: 3}
+  mediumVariationPrefab: {fileID: 5964264575456465638, guid: 0173f74499a264c17bfb968f546bce69,
+    type: 3}
+  smallVariationPrefab: {fileID: 5964264575456465638, guid: 0173f74499a264c17bfb968f546bce69,
+    type: 3}
+  minDistanceBigVariation: 0.7
+  minDistanceMediumVariation: 0.7
+  minDistanceSmallVariation: 0.7
